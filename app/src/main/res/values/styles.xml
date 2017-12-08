@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Style for the Section -->
+    <style name="styleSection">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/colorTextSection</item>
+        <item name="android:background">@color/colorBackgroundSection</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <!-- Style for the Article Title -->
+    <style name="styleArticleTitle">
+        <item name="android:textColor">@color/colorTextArticle</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <!-- Style for the Article Type -->
+    <style name="styleArticleType">
+        <item name="android:textColor">@color/colorTextArticle</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+    </style>
+
+    <!-- Style for the Article Date -->
+    <style name="styleArticleDate">
+        <item name="android:textColor">@color/colorTextArticle</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginLeft">4dp</item>
+    </style>
+
+    <!-- Style for communication UI -->
+    <style name="styleUI">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+</resources>

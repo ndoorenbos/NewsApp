@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/article_relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="16dp"
+    android:background="@color/colorBackgroundArticle">
+
+    <TextView
+        android:id="@+id/section_text_view"
+        style="@style/styleSection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        tools:text="Section"/>
+
+    <TextView
+        android:id="@+id/title_text_view"
+        style="@style/styleArticleTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/section_text_view"
+        tools:text="The Most Amazing Headline Ever"/>
+
+    <!-- I used px here because I always want it to be 2 pixels -->
+    <TextView
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_below="@id/title_text_view"
+        android:background="@color/colorBackgroundSection"/>
+
+    <TextView
+        android:id="@+id/date_text_view"
+        style="@style/styleArticleDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/line"
+        tools:text="SEPTEMBER 30, 2016"/>
+
+    <TextView
+        android:id="@+id/type_text_view"
+        style="@style/styleArticleType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/line"
+        android:layout_toLeftOf="@id/date_text_view"
+        tools:text="Article"/>
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+
+    <!-- String for communicating with the user -->
+    <string name="no_connection">Unable to establish internet connection.</string>
+    <string name="no_results">Sorry, there are no results for the the selected criteria.</string>
+    <string name="refresh">Refresh</string>
+</resources>
